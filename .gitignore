@@ -1,0 +1,17 @@
+# Ignore build files
+target/
+project/target/
+project/project/
+
+# Ignore IDE files
+.bsp/
+.metals/
+.scala-build/
+.vscode/
+
+# Ignore SBT specific files
+.cache/
+.history/
+
+# Mac specific files
+.DS_Store
