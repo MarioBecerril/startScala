@@ -4,6 +4,7 @@ import com.inventario.{Producto, Tienda}
 import com.practicas.Alumno;
 import com.practicas.{Coche, Moto}
 import com.practicas.Persona
+import com.store.Index
 
 object Main extends App {
   println("**** Hello, World! ****");
@@ -68,6 +69,11 @@ object Main extends App {
   persona1 match {
     case Persona(nombre, edad) => println(s"Nombre: $nombre, Edad: $edad")
   }
+
+  // Ejecutando Functional Programming
+  println(' ');
+  println("*** Functional Programming ****");
+  Index.ejecutar()
 
 }
  
